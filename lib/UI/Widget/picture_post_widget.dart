@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-Widget picture_post() {
+Widget picturePost() {
   return Container(
     color: Colors.white,
     child: InkWell(
       onTap: () {},
       child: const Image(
           image: NetworkImage(
-              'https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/334815904_105183509169569_5788851541322347304_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=9267fe&_nc_ohc=sREhPiFd3lgAX8qUgFe&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfCaB_yLWLzu9yO3gDyBC7LAgZkK4CZnzXuYog9NRtK8OQ&oe=64264C6A'),
+              'https://scontent.fsgn5-2.fna.fbcdn.net/v/t39.30808-6/335438657_164650156424374_6890138210752793053_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_ohc=VQ-kxw7IDnsAX_dV6yA&_nc_ht=scontent.fsgn5-2.fna&oh=00_AfC4lWFVblBnqliBZW3NdyGUHdubRqOPUZ2hXDfxen0ucA&oe=642BBB45'),
           fit: BoxFit.fill),
     ),
   );

@@ -28,8 +28,10 @@ class SocialCKC extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      
       // initialBinding: DependenciesBinding(),
       home: Tabbar(),
+      
       //  unknownRoute: GetPage(name: '/notfound', page: () => UnknownRoutePage()),
       initialBinding: ApplicationBiding(),
       unknownRoute:
